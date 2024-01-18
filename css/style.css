@@ -1,0 +1,178 @@
+
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ................ 11
+2. Variables ............. 17
+3. Estilos generales ..... 32
+-------------------- */
+
+/* ----- Fuente ----- */
+@import url("https://fonts.googleapis.com/css?family=Merryweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+/* ----- Variables ----- */
+* {
+  --title-font-family: "Merryweather", sans-serif;
+  --body-font-family: "Poppins", sans-serif;
+
+  --body-bg-color: #D1DEF5;
+  --card-bg-color: #f6f9ff;
+  --text-color: #12163c;
+
+  --blue-color-1: #96b3ff;
+  --blue-color-2: #6792ff;
+  --blue-color-3: #4473ea;
+  --blue-color-4: #1a52e1;
+
+  --fs-text: 1rem;
+  --lh-text: 22px;
+}
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+  font-family: var(--primary-font-family);
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+  font-size: var(--fs-text);
+  line-height: var(--lh-text);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+}
+
+
+.container{
+    margin: 0 auto;
+    /* background-color: #1B56EC; */
+}
+
+.cardd {
+  width: 700px;
+  background-color: var(--card-bg-color);
+  border-radius: 30px;
+  padding: 60px;
+  box-shadow: 20px 20px #E4EDFE; 
+  margin: 0 auto;
+  color: var(--text-color);
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: var(--primary-font-family);
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-family: var(--body-font-family);
+  font-weight: 600;
+  font-size: 0.93rem;
+  margin-top: 0px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.stats {
+  font-size: 15px;
+  height: 200px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.percentages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.number {
+  font-family: var(--title-font-family);
+  font-weight: 900;
+  margin-left: 5px;
+}
+.number2 {
+  font-family: var(--title-font-family);
+  font-weight: 900;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.number3 {
+  font-family: var(--title-font-family);
+  font-weight: 900;
+  margin-left: 5px;
+  margin-right: 23px;
+}
+p {
+  margin-top: 0px;
+}
+
+.text {
+  font-family: var(--body-font-family);
+  font-weight: 600;
+}
+
+.percentages-sub {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line1 {
+  width: 125px;
+  background-color: #6792ff;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.line2 {
+  width: 90px;
+  background-color: #4473ea;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.line3 {
+  width: 75px;
+  background-color: #1a52e1;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.line4 {
+  width: 30px;
+  background-color: #96b3ff;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+.more {
+  font-family: var(--body-font-family);
+  font-weight: 600;
+  color: #1B56EC;
+  text-decoration: underline;
+  text-align: end;
+  padding-top: 10px;
+
+  margin-left: auto;
+}
+
+.circle {
+  width: 200px;
+}
